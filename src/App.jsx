@@ -21,7 +21,7 @@ function App() {
 
   return (
   <div style={objStyle} className="App">
-    <h1>Galleta de la fortuna </h1>
+    <h1 className='title'>GALLETA DE LA FORTUNA </h1>
     <PhrasesCard phraseRandom={phraseRandom}/>
     <ButtonPhrase 
     setPhraseRandom={setPhraseRandom}
