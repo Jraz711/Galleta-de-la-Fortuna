@@ -2,7 +2,7 @@ const PhrasesCard = ({phraseRandom}) => {
 
 
   return (
-      <p>
+      <p className="CardPhrase">
         {phraseRandom.phrase}
       </p>
   )
