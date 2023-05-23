@@ -2,11 +2,18 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
 }
 
 .title{
   color: #fff;
+  position: absolute;
+  top: 2.4em;
+  font-size: 3rem
 }
 
 .CardPhrase {
@@ -20,9 +27,27 @@
   width: 100%;
   max-width: 400px;
   background-color: white;
-
+  line-height: 1.8;
 }
 
-.ButtomRandom{ 
-  border-radius: 0.3em; -webkit-border-radius: 0.3em; -moz-border-radius: 0.3em; -ms-border-radius: 0.3em; -o-border-radius: 0.3em;
+.ButtomRandom{
+  font-size: 1rem;
+  padding: 0.5em 3em;
+  border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -ms-border-radius: 0.8em;
+  -o-border-radius: 0.8em;
+  background-color: #c6e8ff;
+  color: #757678;
+  border: 0.2em solid #fff;
+  transition: 
+    transform 100ms ease,
+    filter 100ms ease;
 }
+
+.ButtomRandom:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
