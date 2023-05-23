@@ -28,6 +28,8 @@
   max-width: 400px;
   background-color: white;
   line-height: 1.8;
+  box-shadow: 0.15em 0.15em 0.8em #757678;
+  
 }
 
 .ButtomRandom{
